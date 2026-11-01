@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscripción de Cursos</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+
+    <h1>Inscripción de Cursos</h1>
+
+    <form action="/guardarInscripcion" method="POST">
+
+        <input
+            type="text"
+            name="curso"
+            placeholder="Nombre del Curso"
+            required>
+
+        <input
+            type="text"
+            name="codigo"
+            placeholder="Código del Curso"
+            required>
+
+        <input
+            type="text"
+            name="semestre"
+            placeholder="Semestre"
+            required>
+
+        <input
+            type="text"
+            name="seccion"
+            placeholder="Sección"
+            required>
+
+        <input
+            type="text"
+            name="estudiante"
+            placeholder="Nombre del Estudiante"
+            required>
+
+        <button type="submit">
+            Inscribir
+        </button>
+
+    </form>
+
+    <br>
+
+    <a href="/">Volver al inicio</a>
+
+</body>
+</html>
